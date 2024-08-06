@@ -19,21 +19,21 @@ const DetailSection = ({
 }) => {
   return (
     <main>
-      <div>{title}</div>
-      <div className="text-primary font-semibold text-sm mb-1">{school}</div>
+      <div className="text-sm text-gray-700 font-semibold">{title}</div>
+      <div className="text-primary font-semibold text-xs mb-1">{school}</div>
       {dateText && <Date dateText={dateText} />}
       {link && (
-        <div className="flex gap-1 items-center text-xs">
+        <div className="flex gap-2.5 items-center text-xs">
           <Link1Icon />
           <a href={link} target="_blank">
-            {link}
+            <div className="text-[10px]">{link}</div>
           </a>
         </div>
       )}
       <div className="text-gray-800 text-xs mt-1">
         {text?.map((t) => (
           <ul className="ms-3 list-disc" key={t}>
-            <li className="">{t}</li>
+            <li>{t}</li>
           </ul>
         ))}
       </div>

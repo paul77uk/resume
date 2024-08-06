@@ -45,13 +45,11 @@ const RightColumn = () => {
         ]}
       />
       <DetailSection
-        title="SpaceX"
-        school="Le Wagon"
-        dateText="09/2023"
-        link="https://spacexlewagon-e975376e0fc3.herokuapp.com/"
+        title="Resume"
+        dateText="08/2024"
+        link="https://resume-murex-xi.vercel.app/"
         text={[
-          "This was the fi rst app we made together as a group in the Le Wagon Bootcamp. It was an Airbnb clone, but with spaceships in our case",
-          "We used Rails 7, Devise, GitHub, Heroku and more",
+          "I built this resume using TypeScript, Next.js, React and Tailwind CSS and deployed it on Vercel.",
         ]}
       />
     </main>
