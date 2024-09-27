@@ -29,10 +29,10 @@ const RightColumn = () => {
       <DetailSection
         title="Built4Life"
         dateText="05/2024 - present"
-        link="https://built4.life"
+        link="https://built-4-life.vercel.app"
         text={[
           "A workout app that allows users to create workouts and track their progress",
-          "Technologies used: Next.js, TypeScript, Drizzle ORM, Shadcn UI, Tailwind CSS, Vercel.",
+          "Technologies used: Next.js, TypeScript, Prisma ORM, Shadcn UI, Tailwind CSS, Stripe, React, Vercel.",
         ]}
       />
       <DetailSection
@@ -54,15 +54,15 @@ const RightColumn = () => {
       />
 
       {/* <div className="pt-10"> */}
-        <DetailSection
-          title="Trailblazr"
-          school="Le Wagon"
-          dateText="09/2023"
-          link="http://www.trailblazr.me/"
-          text={[
-            "Designed, Implemented and shipped to production our own web app Trailblazr and completed the project in 2 weeks in a team of 5",
-          ]}
-        />
+      <DetailSection
+        title="Trailblazr"
+        school="Le Wagon"
+        dateText="09/2023"
+        link="http://www.trailblazr.me/"
+        text={[
+          "Designed, Implemented and shipped to production our own web app Trailblazr and completed the project in 2 weeks in a team of 5",
+        ]}
+      />
       {/* </div> */}
     </main>
   );
