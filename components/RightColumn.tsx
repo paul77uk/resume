@@ -38,7 +38,7 @@ const RightColumn = () => {
       <DetailSection
         title="Resume"
         dateText="08/2024"
-        link="https://resume-murex-xi.vercel.app/"
+        link="https://paul-vickers-resume.vercel.app/"
         text={[
           "I built this resume using TypeScript, Next.js, React and Tailwind CSS and deployed it on Vercel.",
         ]}
